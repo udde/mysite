@@ -1,0 +1,60 @@
+section#stories
+    background: rgb(103,177,155)
+    +span-columns(12)
+    .story
+        width: 50%
+        display: inline-block
+        float: left
+        +omega(n)
+        height: 400px
+        padding: 0
+        background: rgb(196,214,213)
+        background-position: center
+        background-size: cover
+
+        .story-overlay
+            height: 400px
+            +transition(opacity, 0.7s)
+            padding: 20px 10px
+            margin: 0
+            text-align: center
+            h2, p
+                padding: 0
+                margin: 0
+                font-size: 4.1vw
+                color: white
+            p
+                margin-top: 30px
+                font-size: 1.2em
+
+
+            background-color: fade-out( gold, 0.09)
+            opacity: 0.0
+        &:hover .story-overlay
+            opacity: 1.0
+        &:nth-child(1)
+
+    #music
+        background-image: url('/assets/img/gitarra.png')
+        .story-overlay
+            background-color: fade-out(rgb(86,184,88), 0.25)
+
+    #edu
+        background: white
+        background-image: url('/assets/img/liu.jpg')
+        background-size: contain
+        background-position: center
+        background-repeat: no-repeat
+        .story-overlay
+            background-color: fade-out(rgb(223,79,79), 0.05)
+
+    #dev
+        background-image: url('/assets/img/edutech.png')
+        background-position: 50% 0%
+        .story-overlay
+            background-color: fade-out(rgb(50,55,85), 0.05)
+
+    #teach
+        background-image: url('/assets/img/matte.jpg')
+        .story-overlay
+            background-color: fade-out(rgb(108,214,214), 0.23)
