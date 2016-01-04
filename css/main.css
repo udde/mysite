@@ -519,7 +519,7 @@ section#stories {
     section#stories .story:hover .story-overlay {
       opacity: 1.0; }
   section#stories #music {
-    background-image: url("/mysite/assets/img/gitarra.png"); }
+    background-image: url("/assets/img/gitarra.png"); }
     section#stories #music .story-overlay {
       background-color: rgba(86, 184, 88, 0.75); }
   section#stories #edu {
