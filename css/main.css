@@ -400,7 +400,7 @@ header {
   header .logo {
     width: 100%;
     height: 23vw;
-    background-image: url("/assets/img/selfie.jpg");
+    background-image: url("/mysite/assets/img/selfie.jpg");
     background-size: cover;
     background-position: center; }
     header .logo .logo-overlay {
@@ -519,24 +519,24 @@ section#stories {
     section#stories .story:hover .story-overlay {
       opacity: 1.0; }
   section#stories #music {
-    background-image: url("/assets/img/gitarra.png"); }
+    background-image: url("/mysite/assets/img/gitarra.png"); }
     section#stories #music .story-overlay {
       background-color: rgba(86, 184, 88, 0.75); }
   section#stories #edu {
     background: white;
-    background-image: url("/assets/img/liu.jpg");
+    background-image: url("/mysite/assets/img/liu.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
     section#stories #edu .story-overlay {
       background-color: rgba(223, 79, 79, 0.95); }
   section#stories #dev {
-    background-image: url("/assets/img/edutech.png");
+    background-image: url("/mysite/assets/img/edutech.png");
     background-position: 50% 0%; }
     section#stories #dev .story-overlay {
       background-color: rgba(50, 55, 85, 0.95); }
   section#stories #teach {
-    background-image: url("/assets/img/matte.jpg"); }
+    background-image: url("/mysite/assets/img/matte.jpg"); }
     section#stories #teach .story-overlay {
       background-color: rgba(108, 214, 214, 0.77); }
 
